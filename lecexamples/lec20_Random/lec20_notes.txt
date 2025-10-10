@@ -20,6 +20,8 @@ To obtain unpredictable values, use an object of the Random class
         Integer x = randGen.nextInt( n );  // an unpredictable value in the range [0, n-1]
                     // here, n is the number of values in the range
 
+        Integer x = randGen.nextInt( a, b );  // an unpredictable value in the range [a, b-1]
+
         Double d  = randGen.nextDouble();  // an unpredictable value in the range [0, 1)
 
         Boolean b = randGen.nextBoolean();  // an unpredictable value of either true or false
